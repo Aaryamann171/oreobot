@@ -44,7 +44,7 @@ async def dice(ctx):
     await ctx.send(f'Dice says: {dice_val}')
 
 @bot.command(name='coinflip')
-async def dice(ctx):
+async def coinflip(ctx):
     r = random.randint(0,1)
     toss_val = "Tails" if r else "Heads"
     await ctx.send(f'Coin says: {toss_val}')
